@@ -6,7 +6,7 @@ def pow(a, b):
     elif b < 0:
         for i in range((-b) - 1):
             c = c * a
-        c = float(1 / (c * a))
+        c = float(1 / (c))
     else:
         for i in range(b - 1):
             c = c * a
